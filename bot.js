@@ -175,7 +175,7 @@ bot.on('message', async (msg) => {
 
   const username = msg.from.username ? `@${escapeMd(msg.from.username)}` : 'N/A';
 
-  let report = `🚨 *New BESC exo Bug Report*
+  let report = `🚨 *New BESC ECO Bug Report*
 
 *Category:* ${escapeMd(categoryTitle)}
 *Submitted:* \`${nowUtc()}\`
