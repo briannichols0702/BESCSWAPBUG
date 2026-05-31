@@ -9,7 +9,7 @@ if (!REPORT_CHANNEL_ID) throw new Error('Missing REPORT_CHANNEL_ID');
 
 const bot = new TelegramBot(BOT_TOKEN, { polling: true });
 
-const BOT_NAME = 'BESC exo bug bot';
+const BOT_NAME = 'BESC ECO Bug Bot';
 const userSessions = new Map();
 
 function escapeMd(text = '') {
